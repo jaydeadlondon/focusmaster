@@ -15,7 +15,7 @@ class ErgonomicsMaster:
         )
         self.landmarker = vision.PoseLandmarker.create_from_options(options)
 
-        self.yolo_model = YOLO("yolov11n.pt")
+        self.yolo_model = YOLO("yolo11n.pt")
 
         self.cap = cv2.VideoCapture(0)
         logger.info("Система готова. Нажми 'q' для выхода.")
