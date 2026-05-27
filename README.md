@@ -1,32 +1,32 @@
 # 👁 Focus Master
 
-> AI-надзиратель. Помогает сфокусироваться и держать осанку.
+> AI supervisor. Helps you stay focused and maintain good posture.
 
-Это мой личный проект на OpenCV, который я скрафтил, чтобы окончательно не угробить спину и продуктивность за компом.
+This is my personal OpenCV project, which I created to prevent my back from giving out and to boost my productivity while working at the computer.
 
-## 🤔 Зачем это вообще нужно?
+## 🤔 Why do I even need this?
 
-Я заметил, что через пару часов работы я либо сползаю под стол (привет, сколиоз), либо незаметно для себя оказываюсь в телефоне, листая тикток. **Focus Master** — это "вторая пара глаз", которая следит за мной через вебку и не дает расслабляться.
+I noticed that after a couple of hours of work, I either slide under the desk (hello, scoliosis) or, without realizing it, find myself on my phone scrolling through TikTok. **Focus Master** is a “second set of eyes” that watches me through my webcam and keeps me from slacking off.
 
-## ✨ Фишки
+## ✨ Features
 
-- **Posture Check** — Если плечи опускаются слишком низко (я начал горбиться) — на экране горит аларм.
-- **Phone Jail** — Как только в кадре появляется смартфон, нейронка это палит и выводит предупреждение.
+- **Posture Check** — If my shoulders drop too low (I start slouching), an alarm flashes on the screen.
+- **Phone Jail** — As soon as a smartphone appears in the frame, the neural network detects it and displays a warning.
 
-## 🛠️ Стек
+## 🛠️ Stack
 
-- **[uv](https://github.com/astral-sh/uv)** — пакетный менеджер
-- **[OpenCV](https://opencv.org/)** — база для захвата видео
-- **[Ultralytics YOLOv11](https://github.com/ultralytics/ultralytics)** — нейронка
-- **[MediaPipe Tasks](https://ai.google.dev/edge/mediapipe/solutions/guide)** — биометрия
+- **[uv](https://github.com/astral-sh/uv)** — package manager
+- **[OpenCV](https://opencv.org/)** — foundation for video capture
+- **[Ultralytics YOLOv11](https://github.com/ultralytics/ultralytics)** — neural network
+- **[MediaPipe Tasks](https://ai.google.dev/edge/mediapipe/solutions/guide)** — biometrics
 
-## 🚀 Как завести у себя
+## 🚀 How to get started
 
-Я юзаю **uv**, так что установка занимает примерно 10 секунд:
+I use **uv**, so installation takes about 10 seconds:
 
 ```bash
 uv sync
 uv run main.py
 ```
 
-Писал для себя, но если кому-то тоже нужно — пользуйтесь! 🚀
+I wrote this for myself, but if anyone else needs it too — feel free to use it! 🚀
